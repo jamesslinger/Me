@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+
+h1 {
+    margin: 100px auto 50px;
+    font-family: 'Whisper', cursive;
+    font-size: 6.5rem;
+    color: #af7464;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #9a6554;
+}
+
+h3 {
+    font-weight: normal;
+    margin: 0;
+    color: #9a6554;
+}
+
+hr {
+    border: dotted #acbac3 6px;
+    border-bottom: 0;
+    width: 20%;
+    position: relative;
+}
+
+table {
+    width: auto;
+    margin: 120px auto 0;
+    position: relative;
+}
+
+.td-left {
+    padding-right: 30px;
+}
+
+.top-container {
+    background-color: #F0ECE3;
+    padding: 50px 60px 100px;
+    position: relative;
+}
+
+.middle-container {
+    background-color: #DFD3C3;
+    position: relative;
+    padding: 50px 0;
+}
+
+.bottom-container {
+    background-color: #acbac3;
+    position: relative;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.profile {
+    padding: 50px 50px 100px;
+    line-height: 2;
+}
+
+.bio {
+    width: 80%;
+    margin: auto;
+}
+
+.skills-hobbies-section {
+    margin: 100px auto 25px;
+}
+
+.skill-row {
+    margin: auto;
+    padding-bottom: 50px;
+    width: 70%;
+    text-align: left;
+    line-height: 2;
+}
+
+.hobbies-row {
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 70%;
+    text-align: right;
+    line-height: 2;
+}
+
+.contact-me {
+    margin: 100px auto 50px;
+    width: 70%;
+    line-height: 2;
+}
+
+.btn {
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #becdd5;
+    font-size: 24px;
+    background: #af7464;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .btn:hover {
+    margin-top: 50px;
+    background: #f0ece3;
+    text-decoration: none;
+    color: #af7464;
+  }
+
+  #button {
+    margin-top: 30px;
+  }
+
+.sm-ico {
+    width: 48px;
+    margin: 10px;
+}
+
+.sm-ico:hover {
+    opacity: 0.5;
+}
+
+#top-img {
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+    padding-top: 50px;
+}
+
+#hello-img {
+    margin: auto;
+    width: 90%;
+    max-width: 220px;
+    border-radius: 50%;
+    background-color: #becdd5;
+
+}
+
+#skills-img {
+    margin-right: 20px;
+    width: 25%;
+    max-width: 280px;
+    float: left;
+    position: relative;
+}
+
+#hobbies-img {
+    margin-left: 20px;
+    width: 25%;
+    max-width: 280px;
+    float: right;
+    position: relative;
+}
+
+#question-img {
+    width: 25%;
+    max-width: 280px;
+    padding-top: 30px;
+}
+
+#copyright {
+    margin: 0;
+    padding-top: 30px;
+    font-size: 0.8rem;
+}
