@@ -33,7 +33,7 @@ hr {
 
 table {
     width: auto;
-    margin: 120px auto 0;
+    margin: 10px auto 0;
     position: relative;
 }
 
@@ -69,6 +69,11 @@ table {
 .bio {
     width: 80%;
     margin: auto;
+}
+
+.knowledge {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .skills-hobbies-section {
@@ -141,7 +146,7 @@ table {
 #hello-img {
     margin: auto;
     width: 90%;
-    max-width: 220px;
+    max-width: 200px;
     border-radius: 50%;
     background-color: #becdd5;
 
@@ -150,7 +155,7 @@ table {
 #skills-img {
     margin-right: 20px;
     width: 25%;
-    max-width: 280px;
+    max-width: 240px;
     float: left;
     position: relative;
 }
@@ -158,7 +163,7 @@ table {
 #hobbies-img {
     margin-left: 20px;
     width: 25%;
-    max-width: 280px;
+    max-width: 240px;
     float: right;
     position: relative;
 }
