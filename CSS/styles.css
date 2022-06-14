@@ -43,14 +43,14 @@ table {
 
 .top-container {
     background-color: #F0ECE3;
-    padding: 50px 60px 100px;
+    padding: 50px 60px 150px;
     position: relative;
 }
 
 .middle-container {
     background-color: #DFD3C3;
     position: relative;
-    padding: 50px 0;
+    padding: 120px 0 60px;
 }
 
 .bottom-container {
