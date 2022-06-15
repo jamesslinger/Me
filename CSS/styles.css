@@ -37,6 +37,55 @@ table {
     position: relative;
 }
 
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    right: 20px;
+    width: 100%;
+    top: 0;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #9a6554;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    color: #acbac3;
+}
+
+.navbar-projects {
+    overflow: hidden;
+    position: fixed;
+    right: 20px;
+    width: 100%;
+    top: 6px;
+}
+
+.navbar-projects a {
+    float: right;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #9a6554;
+    font-weight: 600;
+}
+
+.navbar-projects a:hover {
+    color: #acbac3;
+}
+
+
 .td-left {
     padding-right: 30px;
 }
@@ -123,9 +172,15 @@ table {
     color: #af7464;
   }
 
-  #button {
+#button {
     margin-top: 30px;
   }
+
+.projects {
+    background-color: #F0ECE3;
+    padding: 50px 60px;
+    margin-top: 20px;
+}
 
 .sm-ico {
     width: 48px;
@@ -172,6 +227,11 @@ table {
     width: 25%;
     max-width: 280px;
     padding-top: 30px;
+}
+
+#projects-img {
+    width: 50%;
+    max-width: 400px;
 }
 
 #copyright {
