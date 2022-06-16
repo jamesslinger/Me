@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>James Slinger</title>
+    <title>James The Dev</title>
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="icon" href="me_favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,12 +12,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Raleway&family=Whisper&display=swap" rel="stylesheet">
 </head>
   <body>
-    <div class="top-container">
-        <h1>I'm James.</h1>
-        <h2>a software developer.</h2>
-        <img id="top-img" src="Site Images/computer.png" alt="computer-img">
+    <div class="top-container"> 
+      <nav class="navbar">
+        <!-- NAVIGATION MENU -->
+          <ul class="nav-links">
+              <!-- USING CHECKBOX HACK -->
+              <input type="checkbox" id="checkbox_toggle" />
+              <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+              <!-- NAVIGATION MENUS -->
+              <div class="menu">
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="mailto:jamesxslinger@gmail.com">Contact Me</a></li>
+              </div>
+          </ul>
+      </nav>    
+      <h1>I'm James.</h1>
+      <h2>a software developer.</h2>
+      <img id="top-img" src="Site Images/computer.png" alt="computer-img">
     </div>
-
     <div class="middle-container">
       <div class="profile">
         <img id="hello-img" src="Site Images/Me.png" alt="hello-img">
@@ -48,7 +60,7 @@
               <td class="td-left">- Pandas</td><td>- CSS3</td>
             </tr>
             <tr>
-              <td class="td-left">- Beautiful Soup</td><td>+ more soon!</td>
+              <td class="td-left">- Web Scraping (BS4)</td><td>+ more soon!</td>
             </tr>
           </table>
         </div>

@@ -36,6 +36,55 @@ table {
     margin: 10px auto 0;
     position: relative;
 }
+/* OLD NAV BAR
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    right: 20px;
+    width: 100%;
+    top: 0;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #9a6554;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    color: #acbac3;
+}
+
+.navbar-projects {
+    overflow: hidden;
+    position: fixed;
+    right: 20px;
+    width: 100%;
+    top: 6px;
+}
+
+.navbar-projects a {
+    float: right;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #9a6554;
+    font-weight: 600;
+}
+
+.navbar-projects a:hover {
+    color: #acbac3;
+}
+*/
 
 .td-left {
     padding-right: 30px;
@@ -123,9 +172,14 @@ table {
     color: #af7464;
   }
 
-  #button {
+#button {
     margin-top: 30px;
   }
+
+.projects {
+    background-color: #F0ECE3;
+    padding: 50px 60px;
+}
 
 .sm-ico {
     width: 48px;
@@ -174,8 +228,110 @@ table {
     padding-top: 30px;
 }
 
+#projects-img {
+    width: 70%;
+    max-width: 300px;
+    margin: 100px auto 50px;
+}
+
 #copyright {
     margin: 0;
     padding-top: 30px;
     font-size: 0.8rem;
+}
+
+/* NAVBAR */
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #9a6554;
+}
+
+.nav-links a {
+    color: #9a6554;
+}
+
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color: #acbac3;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+/*RESPONSIVE NAVBAR MENU STARTS*/
+/* CHECKBOX HACK */
+input[type=checkbox]{
+    display: none;
+}
+
+/*HAMBURGER MENU*/
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+.menu { 
+    display:none;
+    position: absolute;
+    background-color:#acbac3;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+}
+
+.menu li:hover {
+    display: inline-block;
+    background-color:white;
+    transition: 0.3s ease;
+}
+
+.menu li + li {
+    margin-top: 12px;
+}
+
+input[type=checkbox]:checked ~ .menu{
+    display: block;
+}
+
+.hamburger {
+    display: block;
+}
+
+.dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+}
+
+.dropdown li:hover {
+    background-color: grey;
+}
 }
