@@ -12,17 +12,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Raleway&family=Whisper&display=swap" rel="stylesheet">
 </head>
   <body>
-    <div class="top-container">     
+    <div class="top-container"> 
+      <nav class="navbar">
+        <!-- NAVIGATION MENU -->
+          <ul class="nav-links">
+              <!-- USING CHECKBOX HACK -->
+              <input type="checkbox" id="checkbox_toggle" />
+              <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+              <!-- NAVIGATION MENUS -->
+              <div class="menu">
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="mailto:jamesxslinger@gmail.com">Contact Me</a></li>
+              </div>
+          </ul>
+      </nav>    
       <h1>I'm James.</h1>
       <h2>a software developer.</h2>
       <img id="top-img" src="Site Images/computer.png" alt="computer-img">
     </div>
     <div class="middle-container">
       <div class="profile">
-        <div class="navbar">
-          <a href="mailto:jamesxslinger@gmail.com">Contact Me</a>
-          <a href="projects.html">Projects</a>
-        </div>
         <img id="hello-img" src="Site Images/Me.png" alt="hello-img">
         <h2>Hello</h2>
         <p class="bio">I am a self-taught developer specialising in back-end software using Python3. I'm studying to become an all round full-stack developer. I am powered by coffee and enjoy PC gaming.</p>
@@ -70,6 +79,8 @@
         <a class="btn" id="button" href="mailto:jamesxslinger@gmail.com">CONTACT ME</a>
       </div>
     </div>
+    
+      
     <div class="bottom-container">
       <a target="_blank" href="https://www.linkedin.com/in/jamesslinger/">
         <img class="sm-ico" src="Site Images/linkedin.png"></a>
