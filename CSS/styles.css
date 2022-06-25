@@ -35,56 +35,8 @@ table {
     width: auto;
     margin: 10px auto 0;
     position: relative;
+    font-size: 1.2rem;
 }
-/* OLD NAV BAR
-.navbar {
-    overflow: hidden;
-    position: fixed;
-    right: 20px;
-    width: 100%;
-    top: 0;
-}
-
-.navbar a {
-    float: right;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px 10px;
-    font-size: 16px;
-    margin-top: 20px;
-    color: #9a6554;
-    font-weight: 600;
-}
-
-.navbar a:hover {
-    color: #acbac3;
-}
-
-.navbar-projects {
-    overflow: hidden;
-    position: fixed;
-    right: 20px;
-    width: 100%;
-    top: 6px;
-}
-
-.navbar-projects a {
-    float: right;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px 10px;
-    font-size: 16px;
-    margin-top: 20px;
-    color: #9a6554;
-    font-weight: 600;
-}
-
-.navbar-projects a:hover {
-    color: #acbac3;
-}
-*/
 
 .td-left {
     padding-right: 30px;
